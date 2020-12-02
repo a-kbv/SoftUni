@@ -1,18 +1,17 @@
 from collections import deque
 
-def solve():
-    people = input().split()
+def solve(people):
     toss = int(input())
-    players = deque(people)
+    people = deque(people)
 
 
-    while len(players) > 1:
+    while len(people) > 1:
 
         for _ in range(1, toss):
-            players.append(players.popleft())
+            people.append(people.popleft())
 
-        print(f"Removed {players.popleft()}")
+        print(f"Removed {people.popleft()}")
 
-    print(f'Last is {players.pop()}')
+    print(f'Last is {people.pop()}')
 
-solve()
+solve(input().split())
