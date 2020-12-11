@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd7caa47-6f96-4b7b-aa7f-dd579055e3a6" name="Default Changelist" comment="solution">
+      <change afterPath="$PROJECT_DIR$/08_crossroads.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_robotics.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_robotics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,28 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Python.07_robotics">
-    <configuration name="04_fashion_boutique" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="list_as_stacks_and_queues_ex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_fashion_boutique.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.08_crossroads">
     <configuration name="05_truck_tour" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="list_as_stacks_and_queues_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,6 +114,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="08_crossroads" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="list_as_stacks_and_queues_ex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_crossroads.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="list_as_stacks_and_queues_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.08_crossroads" />
         <item itemvalue="Python.07_robotics" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.06_balanced_parentheses" />
         <item itemvalue="Python.05_truck_tour" />
-        <item itemvalue="Python.04_fashion_boutique" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607622269751</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="solution">
+      <created>1607623708314</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607623708314</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,55 +244,63 @@
     <option name="LAST_COMMIT_MESSAGE" value="solution" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="922" height="274" key="GridCell.Tab.0.bottom" timestamp="1607623673244">
+    <state width="922" height="274" key="GridCell.Tab.0.bottom" timestamp="1607679282769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607623673244" />
+    <state width="922" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607679282769" />
     <state width="412" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.900.1400@0.0.1920.1040" timestamp="1607419227219" />
     <state width="922" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607021268243" />
-    <state width="922" height="274" key="GridCell.Tab.0.center" timestamp="1607623673243">
+    <state width="922" height="274" key="GridCell.Tab.0.center" timestamp="1607679282768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607623673243" />
+    <state width="922" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607679282768" />
     <state width="412" height="230" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.900.1400@0.0.1920.1040" timestamp="1607419227218" />
     <state width="922" height="230" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607021268243" />
-    <state width="922" height="274" key="GridCell.Tab.0.left" timestamp="1607623673243">
+    <state width="922" height="274" key="GridCell.Tab.0.left" timestamp="1607679282768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607623673243" />
+    <state width="922" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607679282768" />
     <state width="412" height="230" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.900.1400@0.0.1920.1040" timestamp="1607419227217" />
     <state width="922" height="230" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607021268243" />
-    <state width="922" height="274" key="GridCell.Tab.0.right" timestamp="1607623673243">
+    <state width="922" height="274" key="GridCell.Tab.0.right" timestamp="1607679282768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607623673243" />
+    <state width="922" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607679282768" />
     <state width="412" height="230" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.900.1400@0.0.1920.1040" timestamp="1607419227218" />
     <state width="922" height="230" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607021268243" />
-    <state width="412" height="230" key="GridCell.Tab.1.bottom" timestamp="1607419227224">
+    <state width="922" height="360" key="GridCell.Tab.1.bottom" timestamp="1607678372719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="922" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607678372719" />
     <state width="412" height="230" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.900.1400@0.0.1920.1040" timestamp="1607419227224" />
     <state width="922" height="230" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607021268258" />
-    <state width="412" height="230" key="GridCell.Tab.1.center" timestamp="1607419227221">
+    <state width="922" height="360" key="GridCell.Tab.1.center" timestamp="1607678372718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="922" height="360" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607678372718" />
     <state width="412" height="230" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.900.1400@0.0.1920.1040" timestamp="1607419227221" />
     <state width="922" height="230" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607021268258" />
-    <state width="412" height="230" key="GridCell.Tab.1.left" timestamp="1607419227220">
+    <state width="922" height="360" key="GridCell.Tab.1.left" timestamp="1607678372718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="922" height="360" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607678372718" />
     <state width="412" height="230" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.900.1400@0.0.1920.1040" timestamp="1607419227220" />
     <state width="922" height="230" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607021268243" />
-    <state width="412" height="230" key="GridCell.Tab.1.right" timestamp="1607419227222">
+    <state width="922" height="360" key="GridCell.Tab.1.right" timestamp="1607678372718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="922" height="360" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607678372718" />
     <state width="412" height="230" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.900.1400@0.0.1920.1040" timestamp="1607419227221" />
     <state width="922" height="230" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607021268258" />
-    <state x="72" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607622271926">
+    <state x="72" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607623711404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607622271926" />
+    <state x="72" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607623711404" />
     <state x="72" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607011078910" />
+    <state x="297" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607678848190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="297" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1607678848190" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
