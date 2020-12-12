@@ -20,3 +20,4 @@ https://softuni.bg/trainings/3019/python-web-basics-september-2020/internal#less
 ----
 Python-web-framework-nov-2020
 https://softuni.bg/trainings/3180/python-web-framework-november-2020
+----
