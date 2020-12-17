@@ -29,7 +29,6 @@ def check_input(data, rows, cols):
             print("Invalid input!")
             return False, None
 
-
 def swap(matrix, tuple):
     row1, col1, row2, col2 = tuple[2:]
 
