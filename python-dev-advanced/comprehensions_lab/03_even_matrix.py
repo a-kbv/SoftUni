@@ -7,6 +7,7 @@ def get_matrix(rows=int(input())):
 def even_matrix(matrix):
     for el in range(len(matrix)):
         matrix[el] = [el for el in matrix[el] if not el % 2 ==1]
+    # [ y for x in non_flat if x % 2 == 0 for y in x ]
     return matrix
 
 if __name__ == "__main__":
