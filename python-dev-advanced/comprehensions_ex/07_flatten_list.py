@@ -1,11 +1,4 @@
+# ex input : 1 2 3 |4 5 6 |  7  8
 
-lists = [el for el in input().split('|')]
-new_l = []
-for elem in lists:
-    new_l.append([el for el in elem if el != " "])
+print(' '.join(el for x in input().split('|')[::-1] for el in x.split(" ") if el != ""))
 
-while new_l:
-    temp = new_l.pop()
-    print(' '.join(temp), end=" ")
-
-# 75/100
