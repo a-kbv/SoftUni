@@ -16,8 +16,7 @@ def palindromic_matrix(r,c):
 
 if __name__ == "__main__":
     r, c = read_int_list_from_input()
-    for i in palindromic_matrix(r,c):
-        print(' '.join(i))
+    [print(' '.join(r)) for r in palindromic_matrix(r,c)]
 
 
 
