@@ -1,4 +1,4 @@
-
+# 60 / 100
 
 def read_matrix(size):
     matrix = [[] * size for _ in range(size)]
@@ -43,16 +43,30 @@ def is_burrow(matrix, row, col):
         return True
     return False
 
-
 def move(matrix, direction, food, is_alive):
+    burows = burrow_pos(matrix)
 
     if direction == "left":
         row, col = snake_position(matrix)
         if is_not_dead(matrix, row, col - 1):
             if is_food(matrix, row, col - 1):
                 food += 1
-            matrix[row][col] = "."
-            matrix[row][col - 1] = "S"
+                matrix[row][col] = "."
+                matrix[row][col - 1] = "S"
+            elif is_burrow(matrix, row, col - 1):
+                matrix[row][col] = "."
+                if row == burows[0][0] and col - 1 == burows[0][1]:
+                    bur_row = burows[1][0]
+                    bur_cow = burows[1][1]
+                    matrix[bur_row][bur_cow] = "S"
+                    matrix[row][col-1] = "."
+                else:
+                    bur_row = burows[0][0]
+                    bur_cow = burows[0][1]
+                    matrix[bur_row][bur_cow] = "S"
+            else:
+                matrix[row][col] = "."
+                matrix[row][col - 1] = "S"
         else:
             matrix[row][col] = "."
             is_alive = False
@@ -63,8 +77,22 @@ def move(matrix, direction, food, is_alive):
         if is_not_dead(matrix, row, col + 1):
             if is_food(matrix, row, col + 1):
                 food += 1
-            matrix[row][col] = "."
-            matrix[row][col + 1] = "S"
+                matrix[row][col] = "."
+                matrix[row][col + 1] = "S"
+            elif is_burrow(matrix, row, col + 1):
+                matrix[row][col] = "."
+                if row == burows[0][0] and col + 1 == burows[0][1]:
+                    bur_row = burows[1][0]
+                    bur_cow = burows[1][1]
+                    matrix[bur_row][bur_cow] = "S"
+                    matrix[row][col + 1] = "."
+                else:
+                    bur_row = burows[0][0]
+                    bur_cow = burows[0][1]
+                    matrix[bur_row][bur_cow] = "S"
+            else:
+                matrix[row][col] = "."
+                matrix[row][col + 1] = "S"
         else:
             matrix[row][col] = "."
             is_alive = False
@@ -75,8 +103,22 @@ def move(matrix, direction, food, is_alive):
         if is_not_dead(matrix, row + 1, col):
             if is_food(matrix, row + 1, col):
                 food += 1
-            matrix[row][col] = "."
-            matrix[row + 1][col] = "S"
+                matrix[row][col] = "."
+                matrix[row + 1][col] = "S"
+            elif is_burrow(matrix, row + 1, col):
+                matrix[row][col] = "."
+                if row + 1 == burows[0][0] and col == burows[0][1]:
+                    bur_row = burows[1][0]
+                    bur_cow = burows[1][1]
+                    matrix[bur_row][bur_cow] = "S"
+                    matrix[row + 1][col] = "."
+                else:
+                    bur_row = burows[0][0]
+                    bur_cow = burows[0][1]
+                    matrix[bur_row][bur_cow] = "S"
+            else:
+                matrix[row][col] = "."
+                matrix[row + 1][col] = "S"
         else:
             matrix[row][col] = "."
             is_alive = False
@@ -87,8 +129,22 @@ def move(matrix, direction, food, is_alive):
         if not is_not_dead(matrix, row - 1, col):
             if is_food(matrix, row - 1, col):
                 food += 1
-            matrix[row][col] = "."
-            matrix[row - 1][col] = "S"
+                matrix[row][col] = "."
+                matrix[row - 1][col] = "S"
+            elif is_burrow(matrix, row - 1, col):
+                matrix[row][col] = "."
+                if row - 1 == burows[0][0] and col == burows[0][1]:
+                    bur_row = burows[1][0]
+                    bur_cow = burows[1][1]
+                    matrix[bur_row][bur_cow] = "S"
+                    matrix[row - 1][col] = "."
+                else:
+                    bur_row = burows[0][0]
+                    bur_cow = burows[0][1]
+                    matrix[bur_row][bur_cow] = "S"
+            else:
+                matrix[row][col] = "."
+                matrix[row - 1][col] = "S"
         else:
             matrix[row][col] = "."
             is_alive = False
