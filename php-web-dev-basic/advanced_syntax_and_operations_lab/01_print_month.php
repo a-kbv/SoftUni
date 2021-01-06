@@ -13,3 +13,11 @@ $months = [
     "November",
     "December",
 ];
+
+$index = readline();
+if (1 < $index && $index <= 12){
+    echo $months[$index-1];
+}
+else{
+    echo "Invalid Month!";
+}
